@@ -24,7 +24,6 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 
   const description = 'Admin One - free React Next Tailwind dashboard with TypeScript and dark mode'
 
-  const url = 'https://justboil.github.io/admin-one-react-tailwind/'
 
   const image = `https://static.justboil.me/templates/one/repo-tailwind-react.png`
 
@@ -39,7 +38,6 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
           <Head>
             <meta name="description" content={description} />
 
-            <meta property="og:url" content={url} />
             <meta property="og:site_name" content="JustBoil.me" />
             <meta property="og:title" content={title} />
             <meta property="og:description" content={description} />
